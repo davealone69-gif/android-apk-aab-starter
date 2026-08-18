@@ -1,0 +1,14 @@
+# Project-wide Gradle settings.
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+android.useAndroidX=true
+kotlin.code.style=official
+android.nonTransitiveRClass=true
+
+# === SIGNING (REQUIRED FOR RELEASE) ===
+# Copy this file to gradle.properties and fill in real values.
+# NEVER commit the real gradle.properties or any keystore.
+
+KEYSTORE_PATH=/absolute/path/to/your-release-key.keystore
+KEYSTORE_PASSWORD=your_store_password
+KEY_ALIAS=your_key_alias
+KEY_PASSWORD=your_key_password

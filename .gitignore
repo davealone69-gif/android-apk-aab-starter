@@ -1,0 +1,43 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Local configuration
+local.properties
+gradle.properties
+*.jks
+*.keystore
+*.p12
+secrets/
+
+# IDE
+.idea/
+*.iml
+.gradle/
+.DS_Store
+*.swp
+
+# Crashlytics / mapping
+mapping.txt
+seeds.txt
+usage.txt
+resources.txt
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Keystore related
+*.bks
